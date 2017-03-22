@@ -16,7 +16,7 @@ namespace CIS427Client
             byte[] data = Encoding.ASCII.GetBytes("Hi");
             string IP = "127.0.0.1";
             int port  = 904;
-
+            //dfhjsahdhda
             IPEndPoint endpoint = new IPEndPoint(IPAddress.Parse(IP), port);
 
             Socket client = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
